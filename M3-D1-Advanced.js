@@ -42,6 +42,14 @@ and punctuation in determining if the string is a palindrome.
     palindrome("abba") === true
     palindrome("abcdefg") === false
  */
+const palindrome = function(string) {
+    let reversedString = string.split('').reverse().join('')
+    if (reversedString===string){
+        return `${string} is a palindrome`
+    }
+    else 
+        return `${string} is a not palindrome`
+}
 
 /* 5) REVERSE INT
 
