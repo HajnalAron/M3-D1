@@ -257,14 +257,22 @@ const striveTeachers = function(number){
     }
     if (number % 7 === 0){
         result += "Stefano"
-    }
-    else{
+    } 
+    if (result===""){
     result=number 
     parseInt(result)
     }
 
     return result
 }
+console.log("----19----")
+console.log(striveTeachers(3))
+console.log(striveTeachers(5))
+console.log(striveTeachers(7))
+console.log(striveTeachers(21))
+console.log(striveTeachers(35))
+console.log(striveTeachers(105))
+console.log(striveTeachers(17))
 /*
 20)
 Create a function that given a phrase returns its acronym, like British Broadcasting Corporation returns BBC
